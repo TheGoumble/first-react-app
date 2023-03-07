@@ -1,6 +1,15 @@
 # My First React App
 
-This is going to be a calculator
+React app with 6 clickers that add to a the number score of times differently
 
-## How to start it
-npm i<br>npm start
+# Screenshot
+
+![Screen shot of the demo](/src/first_react_app.png)
+
+# Set up
+
+- install node
+- install npm
+- `git clone https://github.com/TheGoumble/first-react-app.git`
+- `npm i`
+- `npm start`

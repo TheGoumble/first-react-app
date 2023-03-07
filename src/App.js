@@ -1,28 +1,21 @@
-import { useState } from "react"
-
-import logo from "./logo.svg"
 import "./App.css"
+import Clicker from "./Clicker"
 
 function App() {
-  //let count = 0;
-  const [count, setCount] = useState(0)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <>
+      <header>
         <h1>My first React App</h1>
-        <p>You clicked the button {count} times.</p>
-        <button
-          onClick={() => {
-            console.log("I clicked the button " + count)
-            // count++
-            setCount(count + 1)
-          }}
-        >
-          Add One
-        </button>
       </header>
-    </div>
+      <span id="buttons">
+        <Clicker number={1} />
+        <Clicker number={2} />
+        <Clicker number={3} />
+        <Clicker number={4} />
+        <Clicker number={5} />
+        <Clicker number={6} />
+      </span>
+    </>
   )
 }
 
